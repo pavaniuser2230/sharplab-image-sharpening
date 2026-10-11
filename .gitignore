@@ -1,0 +1,40 @@
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+node_modules/
+dist/
+.vite/
+
+# Python
+.venv/
+venv/
+**/.venv/
+**/__pycache__/
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+*.py[cod]
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# OS/editor
+.DS_Store
+.vscode/
+*.log
+
+# project artifacts
+uploads/
+temp/
+**/uploads/
+**/temp/
+
+# Local Apache backups
+*.bak
+*.backup
